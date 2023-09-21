@@ -5,17 +5,22 @@ function App() {
 
 
     return (
-      <div className="App">
-        <h1>Hello World!</h1>
-        <h1>Welcome to my card</h1>
-        <img src="https://cdn.creatureandcoagency.com/uploads/2021/03/FrogLifecycle_Body_8.png" alt="Frog" />
-        <div className="paragraph">
-          <p>This is a picture of a frog that I found on the internet. It looks really cool, and I thought it would be nice to share.</p>
-        </div>
-        <div class="btn-wrapper">
- <a href="https://hax.psu.edu">
-   <button>Details</button> </a> </div>
-      </div>
+      <div class="wrapper">
+      <img class="image"
+  src="https://brand.psu.edu/images/backgrounds/atheltic-wrong.png"
+  alt="Penn State Logo" width="400" height="225"/>
+
+<div class="header">
+  <h2>Penn State Football Nittany Lions</h2>
+</div>
+  <h3>Description</h3>
+    <div class="description">
+  <h5>Penn State Football, represented by the famous Nittany Lion logo, is a D1 football program located in State College, PA. Penn State football has won 2 national championships in program history and are predicted to make an apperance in playoffs in 2024. </h5>
+</div>
+<div class="btn-wrapper">
+    <button onclick="hideDescription()">Details</button>
+</div>
+</div>
     );
   }
 
